@@ -37,7 +37,7 @@ import UIKit
 
 final class PsidiumUseful {
     
-    class func executeAdterDelay(timeInSeconds: Double, closure: (() -> ())) -> Void {
+    class func executeAfterDelay(timeInSeconds: Double, closure: (() -> ())) -> Void {
         dispatch_after(
             dispatch_time(
                 DISPATCH_TIME_NOW,
